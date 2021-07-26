@@ -1,0 +1,831 @@
+.navbar-nav a {
+    font-size: 18px !important;
+    padding: 0px 15px 0px 15px;
+    color: #fff !important;
+}
+
+.nav-item{
+    padding: 0px 10px 0px 10px;
+}
+
+.navbar-nav a:hover{
+    color: #0a677e !important;
+}
+
+.section-footer a:hover{
+    color: #0eb2db ;
+}
+.add_favorites:hover{
+    color: #0eb2db ;
+}
+/* .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+.parallax-search, .mobile-banner-wrap .layer {
+    border: 0px solid red;
+    min-height: 200px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.sections.section-how-it-works {
+    background: url(/assets/images/section1-bg.png) bottom center #ededed repeat-x;
+}
+.section-how-it-works, .section-search-results, .section-grey, .section-cuisine {
+    background: #fafafa;
+}
+.center {
+    text-align: center;
+}
+.sections {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.sections h2, .sections h4 {
+    color: #0d1115;
+    font-family: "Montserrat",sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.section-feature-resto h2, .section-cuisine .sub-text {
+    margin-bottom: 30px;
+}
+
+.search-wraps {
+    border: 0px solid white;
+    width: 60%;
+    margin: auto;
+    padding-top: 180px;
+}
+
+.advance-search {
+    position: relative;
+}
+
+.hide, .forms-search, .review-input-wrap, .credit_card_wrap, .cc-add-wrap, .frm-resume-signup, .pickup-min, .mobile-home-banner, .logo-mobile, .menu-nav-mobile, .cart-mobile-handle, .mobile-search-menu.mytable, .progress-dot.mytable, .menu-top-menu, .mobile-banner, #mobile-filter-handle, .modal-close-btn, #mobile-viewmap-handle, .menu-cat .items-row a.mbile, .menu-2 a.mbile, .menu-3 a.mbile, #getapp-wrap2, #mobile-social-login, .view-receipt-mobile, .view-food-item-wrap .to-show, .back-map-address, .dinein-min {
+    display: none;
+}
+
+.search-wraps h1 {
+    color: #fff;
+    font-size: 56px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+.search-wraps p, .search-wraps p a {
+    text-align: center;
+    color: #fff;
+    /* margin-bottom: 20px; */
+}
+p, .search-input-wraps #s, .search-input-wraps .search-field {
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+}
+.rounded30 {
+    -moz-border-radius: 30px!important;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    -khtml-border-radius: 30px;
+}
+.search-input-wraps {
+    padding: 10px 0px 0px 10px;
+    background: #fff;
+    width: 60%;
+    margin: auto;
+    border: 1px solid #444;
+}
+
+.relative {
+    position: relative;
+}
+.search-input-wraps button[type="submit"] {
+    background: none;
+    border: none;
+    font-size: 28px;
+    position: absolute;
+    right: 20px;
+    top: -10px;
+}
+.form__input {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 0px 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: all 0.3s;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.form__input:focus {
+    outline: none;
+}
+
+.section-how-it-works h3 {
+    background: #0eb2db;
+    color: #fff;
+    padding: 5px;
+    display: inline-table;
+    text-align: center;
+    padding: 5px 25px;
+    border-bottom-left-radius: 10px;
+}
+
+.section-feature-resto {
+    background: #fff;
+}
+/* .section-feature-resto .col-md-5 {
+    min-height: 170px;
+} */
+.border-light {
+    border-top: 1px solid #b1b1b1!important;
+    border-color: #ccc;
+    padding: 9px 0;
+}
+.section-feature-resto img {
+    max-height: 100px;
+    vertical-align: middle;
+}
+
+.logo-small, .logo-medium {
+    display: block;
+    margin: auto;
+    max-width: 100px;
+    min-width: 100px;
+}
+
+.section-feature-resto p {
+    margin: 2px;
+}
+.concat-text {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    text-align: left!important;
+}
+.section-feature-resto ul, ul.services-type {
+    display: table;
+}
+ul.services-type li i {
+    font-size: 15px;
+}
+ul.services-type, li.services-type {
+    margin: 0;
+    padding: 0;
+}
+.green-color, .section-feature-resto a:hover h4, .clear-cart, .section-checkout .i-big.green-color {
+    color: #00B279;
+
+}
+
+.theme-color, .section-feature-resto a:hover h4, .clear-cart, .section-checkout .i-big.theme-color {
+    /* color: #00B279; */
+    color: #0eb2db;
+
+}
+
+.section-feature-resto .merchantopentag span {
+    display: table;
+    margin: auto;
+    /* margin-top: 4px; */
+    margin-top: 8px; 
+}
+.label-info {
+    background-color: #5bc0de;
+}
+.label-danger {
+    background-color: #d9534f;
+}
+.label-success {
+    background-color: #5cb85c;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.section-feature-resto img {
+    max-height: 100px;
+}
+
+a.add_favorites i {
+    font-size: 20px;
+    color: #444;
+}
+a.add_favorites:hover {
+    /* color: #00b279; */
+    color: #0eb2db;
+
+}
+
+.section-feature-resto a:hover, .category a:hover, .category a:active, .category a:focus, a:active, a:focus, .menu-cat a:hover, .section-label a.section-label-a:hover, ul#tabs li.noclick a:hover, ul#tabs li.nounderline a:hover {
+    text-decoration: none;
+}
+.section-feature-resto ul li, ul.services-type li {
+    display: table-cell;
+}
+
+.section-how-it-works p, .section-feature-resto p, .section-footer p, .filter-box li, .box-grey p, .box-grey, .result-merchant .inner p, .view-food-item-wrap .section-label a.section-label-a span {
+    font-size: 14px;
+}
+.section-feature-resto p {
+    margin: 2px;
+}
+.section-feature-resto a {
+    color: inherit;
+}
+
+.indent-5percent {
+    text-indent: 5%;
+}
+
+img.img-cuisine {
+    display: block;
+    margin: 50px auto auto;
+}
+.section-cuisine a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.section-footer {
+    background: url(/assets/images/grey-bg.png);
+    color: #acacab;
+}
+/* .border {
+    border: 0px solid red;
+} */
+.section-footer h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #acacab;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: "Montserrat",sans-serif;
+}
+.social-wrap {
+    text-align: center;
+}
+.mytable {
+    display: table;
+    width: 100%;
+}
+.social-wrap .mycol {
+    width: 16%;
+}
+.mytable .mycol {
+    display: table-cell;
+}
+.section-footer li {
+    list-style: none;
+}
+.section-footer ul, .section-footer li {
+    margin: 0;
+    padding: 0;
+}
+.section-footer a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* browse restaurant */
+.section-grey2 {
+    background: #eff2f5;
+}
+.tabs-wrapper, .connected-wrap {
+    border: 1px solid #c9c7c7;
+}
+ul#tabs {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #c9c7c7;
+}
+ul#tabs li.active {
+    border-bottom: 2px solid #0eb2db;
+}
+ul#tabs li:hover {
+    border-bottom: 2px solid #0eb2db;
+}
+ul#tabs li {
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+ul#tabs li a, ul#mobile-menu li a {
+    color: #474d5d;
+}
+ul#tabs li.active i {
+    color: #0eb2db;
+}
+.result-merchant a.sky-button, .section-profile ul#tabs li i, ul#tabs li a i, ul#tabs li i {
+    font-size: 18px;
+}
+.section-browse ul#tab {
+    padding-top: 0;
+}
+ul#tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 8px;
+}
+ul#tab li.active {
+    display: block;
+}
+.result-merchant {
+    margin-top: 25px;
+}
+.result-merchant .infinite-item, .result-merchant .infinite-item-newest {
+    margin-bottom: 20px;
+}
+.section-browse .result-merchant .inner {
+    padding: 0;
+}
+.section-browse .result-merchant .inner, .section-browse .result-merchant h2 {
+    text-align: left;
+}
+.result-merchant .inner {
+    border: 1px solid #c9c7c7;
+    padding: 10px 0;
+    padding-bottom: 20px;
+    background: #fff;
+    color: #5d5b5b;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
+.section-browse .result-merchant .mytable, .section-browse .result-merchant h2 {
+    margin: 0;
+}
+
+.result-merchant .inner.list-view .mytable .mycol, .section-browse .result-merchant .mytable .mycol {
+    vertical-align: middle;
+}
+.section-browse .result-merchant .mytable .mycol {
+    border: none;
+}
+.result-merchant .mytable .mycol {
+    border: 1px solid #c9c7c7;
+    padding: 2px;
+    width: 40%;
+}
+.mytable .mycol {
+    display: table-cell;
+}
+.section-browse .result-merchant .inner, .section-browse .result-merchant h2 {
+    text-align: left;
+}
+.section-browse .result-merchant .mytable, .section-browse .result-merchant h2 {
+    margin: 0;
+}
+.result-merchant h2 {
+    color: #0eb2db;
+}
+.section-browse .result-merchant .concat-text {
+    padding-left: 0;
+}
+.result-merchant .concat-text {
+    padding-right: 8px;
+}
+.top15, .result-merchant .inner p.top15 {
+    margin-top: 15px;
+}
+.result-merchant a.sky-button, .section-profile ul#tabs li i, ul#tabs li a i, ul#tabs li i {
+    font-size: 18px;
+}
+.result-merchant a.sky-button{
+    text-decoration: none;
+}
+
+.sky-button.medium, .green-button.medium, .black-button.medium {
+    padding: 8px 25px;
+}
+.menu-2 .box-grey .top10, .bottom10 {
+    margin-bottom: 10px;
+}
+.green-button.inline, .sky-button.inline, .inline-block, .black-button.inline {
+    display: inline-block;
+}
+.sky-button, .razorpay-payment-button {
+    background: #0eb2db;
+    border: 1px solid #0eb2db;
+    color: #fff;
+    padding: 5px 8px;
+}
+.rounded3, .fancybox-skin {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -khtml-border-radius: 3px;
+}
+.result-merchant .logo-small {
+    max-height: 100px;
+    min-height: 100px;
+}
+
+.section-browse ul#tab .result-merchant ul.services-type, .section-browse ul#tab .result-merchant ul.services-type li {
+    display: block;
+    text-align: center;
+}
+.section-browse ul#tab ul, .section-browse ul#tab ul li {
+    display: inherit;
+}
+.result-merchant ul.services-type {
+    margin: 0 auto 25px;
+}
+ul.services-type {
+    display: table;
+}
+.section-feature-resto ul li, ul.services-type li {
+    padding: 0px 5px;
+    font-size: 13px;
+}
+#section-browse #restuarant-list p.cod-text {
+    text-align: center;
+}
+
+body p.small, .search-input-wraps #restaurant_name, .cod-text, #section-browse #restuarant-list p.cod-text {
+    font-size: 13px;
+}
+
+.category .goto-category.active {
+    /* border-left: 2px solid #f75d34; */
+    border-left: 2px solid #0eb2db;
+}
+.category a:last-child, .items-row .row.even {
+    border-bottom: 1px solid #c9c7c7;
+}
+.category a {
+    display: block;
+    border: 1px solid #c9c7c7;
+    border-bottom: 0;
+    color: #030303;
+    padding: 10px 8px;
+    font-size: 14px;
+    background: #fff;
+}
+.menu-1.box-grey, .top-line-green, .box-grey.top-line-green {
+    border-top: 2px solid #00B279;
+}
+.menu-1.box-grey, .top-line-theme, .box-grey.top-line-theme {
+    border-top: 2px solid #0eb2db;
+}
+.box-grey {
+    z-index: 1;
+}
+.filter-box, .box-grey {
+    margin-bottom: 20px;
+}
+.filter-wrap, .box-grey {
+    background: #FFFFFF;
+    border: 1px solid #c9c7c7;
+    padding: 15px 20px;
+    margin-top: 25px;
+}
+.items-row {
+    padding-left: 15px;
+}
+.items-row .row {
+    padding-top: 15px;
+    /* padding-bottom: 5px; */
+}
+.bottom20 {
+    margin-bottom: 20px;
+}
+.filter-box a, .menu-cat a, .section-label a.section-label-a, .section-label .section-label-a {
+    color: #333;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: relative;
+}
+.menu-left-content .section-label a.section-label-a span {
+    background: #eff2f5;
+}
+.filter-box a span, .menu-cat a span, .section-label a.section-label-a span, .section-label .section-label-a span {
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    padding: 0 8px 0 0;
+}
+.bold {
+    font-weight: bold;
+}
+.menu-3 a.menu-item:last-child .row, .merchant-opening-hours .row:last-child, .section-receipt .receipt-wrap .row:last-child, .sub-item-rows .row.top10:last-child {
+    border-bottom: 1px solid #c9c7c7;
+}
+.menu-3 a.menu-item .row, .merchant-review-wrap .row-review, .merchant-opening-hours .row, .section-receipt .receipt-wrap .row, .sub-item-rows .row.top10, #mobile-menu li a {
+    border-top: 1px solid #c9c7c7;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.top10, .result-merchant .inner.list-view .services-type, .menu-2 .top10 {
+    margin-top: 10px;
+}
+#notes, .grey-inputs {
+    text-align: left;
+}
+.qty, #notes, .addon_qty, .grey-inputs {
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+#notes, .grey-inputs {
+    text-align: left;
+}
+.green-button {
+    background: #00b279;
+    border: 1px solid #00b279;
+    color: #fff;
+    padding: 5px 8px;
+}
+
+.theme-button {
+    background: #0eb2db;
+    border: 1px solid #0eb2db;
+    color: #fff;
+    padding: 5px 8px;
+}
+
+
+.green-button.inline, .orange-button.inline, .inline-block, .black-button.inline {
+    display: inline-block;
+}
+
+.menu-right-content .box-grey .inner {
+    padding: 15px 20px;
+}
+
+.menu-right-content .box-grey {
+    padding: 0;
+}
+.menu-right-content .box-grey, .menu-2 .box-grey, .no-marin-top {
+    margin-top: 0;
+}
+
+.section-how-it-works p, .section-feature-resto p, .section-footer p, .filter-box li, .box-grey p, .box-grey, .result-merchant .inner p, .view-food-item-wrap .section-label a.section-label-a span {
+    font-size: 14px;
+}
+p, .search-input-wraps #s, .search-input-wraps .search-field {
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+}
+
+.bottom15, .box-grey p.bold, .delivery_asap_wrap {
+    margin-bottom: 15px;
+}
+.nomargin, .result-merchant .inner .mytable p, .result-merchant .inner.list-view p, .box-grey p {
+    margin: 0;
+}
+
+.menu-right-content .box-grey .inner.line-top, .line-top {
+    border-top: 1px solid #c9c7c7;
+}
+.your-order-icon {
+    background: url(/assets/images/your-order.png);
+}
+.order-icon {
+    display: block;
+    width: 56px;
+    height: 55px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+.voucher_wrap, .item-order-wrap {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.clear-cart {
+    display: none;
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.delivery-option .grey-fields, #voucher_code, #redeem_points {
+    width: 65%;
+}
+
+.delivery-option select, .delivery-option input[type="text"], #voucher_code, #redeem_points {
+    display: block;
+    margin: auto;
+    margin-bottom: 8px;
+}
+.grey-fields {
+    background: #e2e3e3;
+    border: 1px solid #c9c7c7;
+    color: #1e1e1e;
+    padding: 8px 10px;
+    width: auto;
+}
+.icheckbox_minimal {
+    background-position: 0 0;
+}
+.text-muted {
+    color: #777;
+}
+
+.icheckbox_minimal, .iradio_minimal {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    background: url(/assets/images/vendor/minimal.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.theme-button.medium, .orange-button.medium, .green-button.medium, .black-button.medium {
+    padding: 8px 25px;
+}
+.disabled-button {
+    background: #ccc;
+    border: 1px solid #ccc;
+}
+
+.rounded {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -khtml-border-radius: 2px;
+}
+
+.section-checkout .section-label a.section-label-a span {
+    padding-left: 30px;
+}
+
+.filter-box a b, .menu-cat a b, .section-label a.section-label-a b, .section-label .section-label-a b {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+}
+.full-width, .section-checkout .grey-fields {
+    width: 100%;
+}
+.section-checkout .i-big {
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    color: #474d5d;
+}
+.avatar-section .box-grey{
+    background: #FFFFFF;
+    border: 1px solid #c9c7c7;
+    padding: 15px 20px;
+    margin-top: 0px;
+}
+
+.avatar-wrap {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+}
+.img-circle {
+    border-radius: 50%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ui-timepicker-container{
+    z-index: 999999!important;
+}
+
+.selected{
+    background: #0eb2db;
+}
+
+.summary-wrap {
+    padding-top: 10px;
+}
+.summary-wrap .bold {
+    font-size: 14px;
+}
+.item-order-list {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #E4E7EA;
+}
+.item-row .a {
+    width: 25px;
+    text-indent: 5px;
+}
+.item-row .b {
+    margin-right: 5px;
+    /* width: 150px; */
+    width: 45%;
+    word-break: normal;
+}
+.item-row .manage, .summary-wrap .manage {
+    float: right;
+}
+.item-row .c {
+    margin-right: 4px;
+}
+.item-row a {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #9A9A93;
+}
+.item-row .d, .summary-wrap .b {
+    width: 80px;
+    text-align: right;
+}
+.item-row .a, .item-row .b, .item-row .c, .item-row .d, .summary-wrap .a {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+
+/* browse restaurant */
+@media only screen and (max-width: 1024px){
+    .search-wraps h1 {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 970px){
+    .sections, .parallax-container.parallax-home {
+        padding-bottom: 15px;
+        padding-top: 20px;
+    }
+}
+@media only screen and (max-width: 970px){
+    .section-browse .result-merchant h2, .section-browse #restuarant-list p, .section-browse .merchant-address{
+        text-align: center;
+    }
+    .section-browse #restuarant-list .mytable, .section-browse #restuarant-list .mytable .mycol {
+        border: 0px solid red;
+        width: auto;
+        margin: auto;
+    }
+
+    .section-browse #restuarant-list a {
+        margin: 20px auto;
+        display: table;
+    }
+}
+
+
+
+@media only screen and (max-width: 540px){
+    .section-feature-resto .col-md-9.col-sm-9 {
+        text-align: center;
+    }
+    .concat-text {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        text-align: center!important;
+    }
+    .section-feature-resto .services-type {
+        border: 0px solid red;
+        margin: auto;
+    }
+}
+
+/* @media (min-width: 768px){
+    .col-sm-5 {
+        width: 41.66666667%;
+    }
+} */

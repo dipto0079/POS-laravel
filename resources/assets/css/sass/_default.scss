@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+$mainColor: #01bf7f;
+$mainBg: #FBFDFF;
+$defaultColor:#5EA2CE;
+
+@mixin fastTransition{
+  transition: all 0.3s;
+}
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: $mainBg;
+  font-size: 18px;
+  a{
+    text-decoration: none;
+    color: #3a454e;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+
+/*
+  ==================
+  Custom Button
+*/
+.c-btn{
+  overflow: hidden;
+  outline: none !important;
+  border-radius: 3px !important;
+  display: inline-block !important;
+  text-align: center !important;
+  @include fastTransition;
+}
+.btn-fill {
+  background-image: linear-gradient(83.46deg, lighten($defaultColor,10) 0%, darken($defaultColor,5) 100%) !important;
+  color: white !important;
+  box-shadow: 0 12px 20px rgba($defaultColor, 0.3) !important;
+  border: none !important;
+}
+.btn-border{
+  border-radius: 5px;
+  border: 1px solid darken($defaultColor,10);
+  background-color: white;
+  color: $defaultColor !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current{
+  @extend .btn-fill;
+  @extend .opacity-hover;
+  color: white !important;
+  @include fastTransition;
+}
+
+//Button hover
+$animation-speed: 300ms;
+$button-before-skew: -45deg;
+$button-before-translate: 150%;
+$button-color-1: #28dcc5;
+$button-color-2: #222;
+
+@keyframes buttonIn {
+  0% {
+    transform: skew($button-before-skew) translateX(-($button-before-translate));
+  }
+  100% {
+    transform: skew($button-before-skew) translateX(-50%);
+  }
+}
+
+@keyframes buttonOut {
+  0% {
+    transform: skew($button-before-skew) translateX(-50%);
+  }
+  100% {
+    transform: skew($button-before-skew) translateX($button-before-translate);
+  }
+}
+.display-none{
+    display: none;
+}
+.btn-hover {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 250ms ease;
+  text-decoration: none;
+  letter-spacing: 1px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 150%;
+    height: 100%;
+    background-image: linear-gradient(83.46deg, lighten($defaultColor,10) 0%, darken($defaultColor,5) 100%);
+    z-index: -1;
+    transform: skew($button-before-skew) translateX(-($button-before-translate));
+    animation: buttonOut $animation-speed ease-in;
+  }
+  &:hover {
+    color: white !important;
+    box-shadow: 0 12px 20px rgba($defaultColor, 0.3);
+    &:before {
+      animation: buttonIn $animation-speed ease-out forwards;
+    }
+  }
+}
+.opacity-hover:hover{
+  opacity: 0.7;
+}
+.txtColor{
+  color: $defaultColor !important;
+}
+

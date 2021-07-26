@@ -1,0 +1,4 @@
+bitbucket-pipelines.yml
+.env
+resources\assets\js\custom\serviceWorker.js
+bootstrap\cache

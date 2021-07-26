@@ -1,0 +1,63 @@
+.required_star{
+    color: #dd4b39;
+}
+
+.main-footer p {
+    padding-top: 10px;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu dropdown-menu-right {
+    width: 50px;
+}
+
+.loginPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100vh !important;
+    background-color:#F4F5F7;
+}
+
+.edit-link {
+    margin-left: 10px;
+}
+
+.topAlert {
+    /*position: absolute;
+    top: 150px;
+    width: 15%;*/
+    z-index: 1;
+    position: absolute;
+    top: 60px;
+    right: 15px;
+}
+
+.landing-page-content {
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.address-label-mt {
+    margin-top: 5px;
+}
+
+.disabled-btn-bg {
+    background-color: lightgrey !important;
+}
+
+.already-have-acc-footer {
+    margin-top: 10px;
+}
+
+#left_menu_to_scroll a{
+    text-decoration: none;
+}
